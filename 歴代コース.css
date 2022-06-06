@@ -1,0 +1,58 @@
+.rabel {
+  width: 24px;
+  height: 48px;
+  background-color: darkgray;
+  float: left;
+  border-top-left-radius: 16px;
+}
+h1 {
+  background-color: lightcoral;
+  border-top-left-radius: 16px;
+  box-shadow: 8px 6px 4px rgba(0, 0, 0, 0.4);
+}
+.mark {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 8px 5px 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+  bottom: 5px;
+  height: 100px;
+  display: block;
+}
+h2 {
+  background-color: lightgreen;
+  font-size: 24px;
+  border-radius: 10px;
+  width: 648px;
+}
+h2::before {
+  content: "◆";
+}
+td::before {
+  content: "• ";
+}
+main td {
+  font-size: 14px;
+}
+img {
+  vertical-align: middle;
+}
+section {
+  display: inline-block;
+  margin-right: 10px;
+}
+section > table {
+  background-color: lightyellow;
+  width: 624px;
+  box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+  bottom: 18px;
+  left: 12px;
+}
+
+.tour {
+  color: red;
+}
+.never {
+  color: blue;
+}
